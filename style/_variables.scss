@@ -6,4 +6,12 @@ $color4:#d4ff44;
 $color5:#ffb5b7;
 $negro:#020001;
 $blanco:#ffffff;
+$letraTitulos:'Ubuntu Condensed', sans-serif;
+$letraGeneral: 'Yantramanav', sans-serif;
 
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

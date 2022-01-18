@@ -1,0 +1,10 @@
+.div6{
+    @include flex-center;
+    p{
+        color: $color1;
+        font-family: $letraGeneral;
+        font-size: 4rem;
+        padding: 5rem;
+        text-align: center;
+    }
+}

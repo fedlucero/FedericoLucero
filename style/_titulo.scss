@@ -1,0 +1,19 @@
+.div2{
+   @include flex-center;
+}
+.div3{
+    @include flex-center;
+}
+
+h1{
+    font-family: $letraTitulos;
+    font-size:5rem ;
+    text-align: center;
+}
+
+h2{
+    font-family: $letraTitulos;
+    font-size: 5rem;
+    text-align: center;
+
+}

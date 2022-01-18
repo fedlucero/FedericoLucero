@@ -80,9 +80,51 @@
 .bot {
   object-fit: contain; }
 
+.div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.div3 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+h1 {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 5rem;
+  text-align: center; }
+
+h2 {
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 5rem;
+  text-align: center; }
+
+.div1 {
+  background-image: url(../img/fondocuadrado1.jpg);
+  background-size: cover; }
+
+.div1:hover {
+  background-image: url(../img/fondocuadrado2.jpg);
+  background-size: cover; }
+
+.div6 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .div6 p {
+    color: #4bd49c;
+    font-family: "Yantramanav", sans-serif;
+    font-size: 4rem;
+    padding: 5rem;
+    text-align: center; }
+
 * {
   margin: 0;
   padding: 0; }
+
+html {
+  font-size: 62.5%; }
 
 body {
   background-image: url(../img/fondogr.jpg);
